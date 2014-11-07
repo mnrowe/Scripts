@@ -16,17 +16,17 @@ echo  * Author: mrowe.w@gmail.com                                 *
 echo  * --------------------------------------------------------- *
 echo  *  1 W7/w8: OLD  					     *
 echo  *  2 W7/W8: NEW   				             *
-echo  *  														  *
-echo  *  3 XP: OLD												  *
-echo  *  4 XP: NEW												  *
+echo  *  							     *
+echo  *  3 XP: OLD						     *
+echo  *  4 XP: NEW						     *
 echo  *************************************************************
 echo.
 
-set /p whatapp=
+set /p whatapp= Number: 
 
 cls
 
-set /p UserInputPath= user home folder:
+set /p UserInputPath= user home folder: 
 
 if %whatapp%==1 (
 	Robocopy "C:\Users\%UserInputPath%\AppData\Roaming\microsoft\signatures" D:\userbackups\%UserInputPath%\backup\roaming\signatures *.* /e
