@@ -1,6 +1,5 @@
 :: Hide Command and Set Scope
 @echo off
-setlocal EnableExtensions
 
 :: Customize Window
 title Outlook-Easy
